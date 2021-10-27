@@ -1,0 +1,14 @@
+<ng-container *ngIf="results">
+        <span class="reddit-container">
+                <!-- <div>Title: {{results.data.title}}</div> -->
+                <div><img src="{{results.data.thumbnail}}" /></div>
+                <div>
+                        <a href="https://www.reddit.com{{results.data.permalink}}">{{results.data.title}}</a>
+                        </div>
+                <br/>
+        </span>
+        
+        <!-- Link: <a href="https://www.reddit.com"{{results.data.permalink}}>Title: {{results.data.title}}</a>
+        <br/> -->
+</ng-container>
+<a></a>
